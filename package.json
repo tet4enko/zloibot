@@ -1,0 +1,23 @@
+{
+  "name": "zloibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server-start": "pm2 start npm -- start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tet4enko/zloibot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tet4enko/zloibot/issues"
+  },
+  "homepage": "https://github.com/tet4enko/zloibot#readme",
+  "dependencies": {
+    "telegraf": "^4.6.0"
+  }
+}
